@@ -1,0 +1,58 @@
+[11:32:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1022-azure (amd64)
+[11:32:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-40-master@2fdb2e9 (2024-08-21T01:35:33Z) for Minecraft 1.21.1
+[11:32:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:32:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[11:32:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:32:45] [ServerMain/INFO]: Loaded 1290 recipes
+[11:32:46] [ServerMain/INFO]: Loaded 1399 advancements
+[11:32:46] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[11:32:46] [Server thread/INFO]: Loading properties
+[11:32:46] [Server thread/INFO]: This server is running Paper version 1.21.1-40-master@2fdb2e9 (2024-08-21T01:35:33Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[11:32:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:32:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:32:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:32:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[11:32:49] [Server thread/INFO]: Default game type: SURVIVAL
+[11:32:49] [Server thread/INFO]: Generating keypair
+[11:32:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:32:49] [Server thread/INFO]: Using epoll channel type
+[11:32:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:32:49] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[11:32:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:32:49] [Server thread/INFO]: Preparing level "world"
+[11:32:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:32:52] [Server thread/INFO]: Time elapsed: 2128 ms
+[11:32:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:32:53] [Server thread/INFO]: Time elapsed: 364 ms
+[11:32:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:32:53] [Server thread/INFO]: Time elapsed: 236 ms
+[11:32:53] [Server thread/INFO]: [spark] Starting background profiler...
+[11:32:53] [Server thread/INFO]: Done preparing level "world" (4.223s)
+[11:32:54] [Server thread/INFO]: Running delayed init tasks
+[11:32:54] [Server thread/INFO]: Done (19.029s)! For help, type "help"
+[11:32:54] [Server thread/INFO]: Timings Reset
+[11:34:12] [Server thread/INFO]: Checking version, please wait...
+[11:34:13] [Thread-7/INFO]: This server is running Paper version 1.21.1-40-master@2fdb2e9 (2024-08-21T01:35:33Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+You are running the latest version
+[11:34:31] [Server thread/INFO]: Stopping server
+[11:34:31] [Server thread/INFO]: Saving players
+[11:34:32] [Server thread/INFO]: Saving worlds
+[11:34:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:34:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:34:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:34:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:34:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.48s
+[11:34:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:34:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:34:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:34:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:34:32] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.21s
+[11:34:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:34:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:34:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:34:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:34:33] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.19s
+[11:34:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:34:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:34:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:34:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
