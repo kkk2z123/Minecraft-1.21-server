@@ -1,0 +1,21 @@
+services:
+  velocity:
+    build: .
+    ports:
+      - "25599:25599"
+    volumes:
+      - ./velocity:/usr/src/app/velocity
+
+  bungeecord:
+    build: .
+    ports:
+      - "25577:25577"
+    volumes:
+      - ./bungeecord:/usr/src/app/bungeecord
+
+  papermc:
+    build: .
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./papermc:/usr/src/app/papermc
